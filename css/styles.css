@@ -1,0 +1,117 @@
+a {
+  text-decoration: none !important;
+}
+
+.img-background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header */
+
+.header-img {
+  background-image: url(../images/villadeleyva1h.png);
+  
+  height: 650px; 
+}
+
+/* Features places */
+
+.tittle {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
+  box-shadow: 0px 2px gray;
+  padding: 0.8rem;
+}
+
+.grid-image-1 {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.tittle-text {
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(59, 58, 58);
+  font-size: 1.2rem;
+  color: white;
+}
+
+.tittle-text:hover {
+  background-color:  rgb(131, 29, 131);
+}
+
+.img-1 {
+  position: absolute;
+  left: 2rem;
+  top: 320px;
+}
+
+.position-img {
+  position: relative;
+  width: 125px;
+  left: 1rem;
+  top: 135px;
+}
+
+.image-1 {
+  background-image: url(../images/raquira.jpg);
+  height: 370px;
+  /* box-shadow: 5px -5px 5px -3px #D69508; */
+}
+
+.image-1:hover {
+  /* box-shadow: -3px 3px rgba(141, 236, 165, 0.747); */
+  box-shadow: 5px -5px 5px -3px #D69508;
+}
+
+.image-2 {
+  background-image: url(../images/villaiglesia.jpg);
+}
+
+.image-3 {
+  background-image: url(../images/tunja2-nochen-alcaldia.jpg);
+}
+
+.grid-image-2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-template-rows:  180px 180px 180px;
+  justify-content: space-between;
+  gap: 7px;
+  margin-top: 10px;
+}
+
+.img-height {
+  height: 180px;
+}
+
+.image-4 {
+  background-image: url(../images/paipa1.png);
+}
+
+.image-5 {
+  background-image: url(../images/laguna-de-tota_alumbrados-boyaca.png);
+}
+
+.image-6 {
+  background-image: url(../images/pozo.jpg);
+}
+
+.image-7 {
+  background-image: url(../images/cucuy.png);
+}
+
+.image-8 {
+  background-image: url(../images/pantano-vargas.jpg)
+}
+
+.image-9 {
+  background-image: url(../images/mongui.jfif);
+}
+
