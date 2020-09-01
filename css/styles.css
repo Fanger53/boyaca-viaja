@@ -1,3 +1,7 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 a {
   text-decoration: none !important;
 }
@@ -12,6 +16,14 @@ a {
   box-shadow: 5px -5px 5px -3px rgb(63, 60, 57);
 }
 
+.border {
+  border: 1px solid black;
+}
+
+.center {
+  margin: 0 auto;
+}
+
 
 /* Header */
 
@@ -19,6 +31,54 @@ a {
   background-image: url(../images/villadeleyva1h.png);
   
   height: 650px; 
+}
+
+.position-img-header {
+  position: relative;
+  width: 125px;
+  left: 1rem;
+  top: 90%;
+}
+
+/* Options section */
+
+.options-logo {
+  width: 200px;
+}
+
+.options-article {
+  height: 10rem;
+  margin-top: 2rem ;
+  background-color: rgb(230, 75, 13);
+  border-radius: 3px;
+}
+
+.options-p {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: white;
+}
+
+.options-buttons {
+  background-color: #009bca;
+  border-radius: 3px;
+}
+
+.options-h2 {
+  padding: 10px 0 10px 0;
+}
+
+.options-btn {
+  width: 90%;
+  color: white;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.fa-caret-down {
+  font-size: 1.5rem;
+
 }
 
 /* Features places */
@@ -70,29 +130,14 @@ a {
 .image-1 {
   background-image: url(../images/raquira.jpg);
   height: 370px;
-  /* box-shadow: 5px -5px 5px -3px #D69508; */
-}
-
-.image-1:hover {
-  /* box-shadow: -3px 3px rgba(141, 236, 165, 0.747); */
-  box-shadow: 5px -5px 5px -3px rgb(63, 60, 57);
 }
 
 .image-2 {
   background-image: url(../images/villaiglesia.jpg);
 }
 
-.image-2:hover {
-  /* box-shadow: 5px -5px 5px -3px rgb(63, 60, 57); */
-  box-shadow: 5px -5px 5px -3px rgb(63, 60, 57);
-}
-
 .image-3 {
   background-image: url(../images/tunja2-nochen-alcaldia.jpg);
-}
-
-.image-3:hover {
-  box-shadow: 5px -5px 5px -3px rgb(63, 60, 57);
 }
 
 .grid-image-2 {
@@ -113,48 +158,24 @@ a {
   background-image: url(../images/paipa1.png);
 }
 
-.image-4:hover {
-  box-shadow: 5px -5px 5px -3px rgb(63, 60, 57);
-}
-
 .image-5 {
   background-image: url(../images/laguna-de-tota_alumbrados-boyaca.png);
-}
-
-.image-5:hover {
-  box-shadow: 5px -5px 5px -3px rgb(63, 60, 57);
 }
 
 .image-6 {
   background-image: url(../images/pozo.jpg);
 }
 
-.image-6:hover {
-  box-shadow: 5px -5px 5px -3px rgb(63, 60, 57);
-}
-
 .image-7 {
   background-image: url(../images/cucuy.png);
-}
-
-.image-7:hover {
-  box-shadow: 5px -5px 5px -3px rgb(63, 60, 57);
 }
 
 .image-8 {
   background-image: url(../images/pantano-vargas.jpg)
 }
 
-.image-8:hover {
-  box-shadow: 5px -5px 5px -3px rgb(63, 60, 57);
-}
-
 .image-9 {
   background-image: url(../images/mongui.jfif);
-}
-
-.image-9:hover {
-  box-shadow: 5px -5px 5px -3px rgb(63, 60, 57);
 }
 
 /* ADS */
@@ -169,7 +190,45 @@ a {
 
 .ads-strong-text {
   font-size: 2.8rem;
+  margin-top: 10px;
 }
+
+.ads-h2-text {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+/* Priority activities  */
+.img-height-2 {
+  height: 200px;
+  margin: 0 10px 10px 0;
+  border-radius: 3px;
+}
+
+.image-10 {
+  background-image: url(../images/quatrimotos-villa.jfif);
+}
+
+.image-11 {
+  background-image: url(../images/images.jfif);
+}
+.image-12 {
+  background-image: url(../images/escalada.jpg);
+}
+
+.image-13 {
+  background-image: url(../images/patio.JPG);
+}
+
+.image-14 {
+  background-image: url(../images/ciclismo.jpg);
+}
+
+.image-15 {
+  background-image: url(../images/Raquira-43.jpg);
+}
+
 
 
 
@@ -177,7 +236,7 @@ a {
 /* FOOTER */
 
 .main-footer {
-  height: 365px;
+  height: 100px;
   background-color: #232123;
   color: white;
 }
